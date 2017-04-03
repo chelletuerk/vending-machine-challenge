@@ -3,8 +3,9 @@ require('babel-core/register')({
 });
 
 const assert = require('chai').assert
-const App = require('../lib/components/App').default
-const Person = require('../lib/components/person').default
+// const App = require('../../lib/components/App')
+import App from '../../lib/components/App'
+const Person = require('../../lib/components/Person').default
 
 describe('Elevator', function() {
   const vendingMachine = new App()
