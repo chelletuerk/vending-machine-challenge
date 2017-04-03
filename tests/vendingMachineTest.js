@@ -3,8 +3,8 @@ require('babel-core/register')({
 });
 
 const assert = require('chai').assert
-const VendingMachine = require('../vendingMachine').default
-const Person = require('../person').default
+const VendingMachine = require('../app/components/vendingMachine').default
+const Person = require('../app/components/person').default
 
 describe('Elevator', function() {
   const vendingMachine = new VendingMachine()
