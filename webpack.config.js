@@ -18,6 +18,8 @@ module.exports = {
       },
       { test: /\.css$/, loader: 'style!css' },
       { test: /\.scss$/, loader: 'style!css!sass' },
+      {test: /\.svg$/, loaders: 'file'},
+      {test: /\.png$/, loader: 'url-loader'}
     ],
   },
   resolve: {
