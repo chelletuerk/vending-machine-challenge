@@ -1,6 +1,6 @@
 module.exports = {
   entry: {
-    main: ['./app/index.js'],
+    main: ['./lib/index.js'],
   },
   output: {
     path: __dirname,
