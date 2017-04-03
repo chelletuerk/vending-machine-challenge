@@ -3,7 +3,7 @@ require('babel-core/register')({
 });
 
 const assert = require('chai').assert
-const VendingMachine = require('../lightblue/components/vendingMachine').default
+const VendingMachine = require('../lib/components/vendingMachine').default
 const Person = require('../lib/components/person').default
 
 describe('Elevator', function() {
