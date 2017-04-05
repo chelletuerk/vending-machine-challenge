@@ -19,4 +19,11 @@ body {
   width: 200px;
   border-radius: 5px;
   border: solid 2px lightblue;
+  font-size: 30px;
+  text-align: center;
+}
+
+::-webkit-input-placeholder {
+  font-size: 35px;
+  text-align: center;
 }
