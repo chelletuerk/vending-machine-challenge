@@ -1,6 +1,6 @@
-body {
-  background: lightblue;
-}
+// body {
+//   display: flex;
+// }
 
 .bg-image {
   position: fixed;
@@ -8,22 +8,49 @@ body {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: url('./images/img1.png') no-repeat;
+  background: url('./images/img2.png') no-repeat;
   background-size: cover;
   z-index: -999;
-  opacity: 0.3;
-}
-
-.credit-input {
-  height: 50px;
-  width: 200px;
-  border-radius: 5px;
-  border: solid 2px lightblue;
-  font-size: 30px;
-  text-align: center;
+  opacity: 0.5;
 }
 
 ::-webkit-input-placeholder {
   font-size: 35px;
   text-align: center;
+}
+
+.dollars {
+  height: 100px;
+  width: 100px;
+  border-radius: 50vh;
+  border: none;
+  text-align: center;
+  flex: auto;
+  justify-content: center;
+  margin: 10px 50px;
+  color: blue;
+  background-color: magenta;
+  font-size: 30px;
+}
+
+.dollar-btns {
+  display: flex;
+}
+
+.treats-btn {
+  height: 200px;
+  width: 200px;
+  border-radius: 50vh;
+  border: none;
+  text-align: center;
+  color: magenta;
+  background-color: blue;
+  margin: 10px 50px;
+  flex: auto;
+  font-size: 20px;
+  flex: auto;
+}
+
+.candy-btns {
+  display: flex;
 }
